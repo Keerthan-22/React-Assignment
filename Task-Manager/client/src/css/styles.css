@@ -1,0 +1,26 @@
+/* File: client/src/css/styles.css
+   Purpose: Simple styles to keep UI readable and beginner-friendly */
+
+body { font-family: Arial, Helvetica, sans-serif; background: #f5f7fb; margin: 0; color: #222; }
+.app-container { max-width: 1100px; margin: 24px auto; padding: 16px; }
+.header { display: flex; justify-content: space-between; align-items: center; }
+.card { background: white; padding: 12px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); margin-bottom: 12px; }
+/* Dashboard specific */
+.dashboard { display:block; gap:18px; }
+.header h1 { margin: 0; font-size: 20px; color: #111; }
+.profile-summary { font-size: 14px; color: #666; }
+.app-card-row { display:flex; gap:12px; align-items:flex-start; }
+.primary { background: #2b6ef6; color: white; border-color: transparent; }
+.primary:hover { filter:brightness(0.95); }
+.profile-form label, .task-form label { display:block; margin-top:8px; font-size:14px; }
+.profile-form input, .task-form input { width:100%; padding:8px; margin-top:4px; box-sizing: border-box; }
+button { margin:4px; padding:6px 10px; border-radius:4px; border:1px solid #ccc; background: #fff; cursor: pointer; }
+button:hover { background:#f0f0f0; }
+.error { color: #b00020; margin-top:8px; }
+.center { text-align:center; padding:24px; }
+.task-table { width:100%; border-collapse: collapse; }
+.task-table th, .task-table td { padding:8px; border-bottom: 1px solid #eee; text-align:left; }
+.stat-item { margin-bottom:8px; }
+.controls { display:flex; gap:12px; }
+
+@media (max-width:800px) { .controls { flex-direction: column; } }

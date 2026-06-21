@@ -1,0 +1,19 @@
+{
+  "name": "task-manager-server",
+  "version": "1.0.0",
+  "description": "Backend for Task Manager & Time Tracking Dashboard",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
